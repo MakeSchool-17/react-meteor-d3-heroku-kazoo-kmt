@@ -8,8 +8,9 @@ HourList = React.createClass({
         return <HourItem hour={hour} key={i} />;
       });
     },
-    
+
     render: function() {
+        return (
         <div className="panel panel-default">
 
           <div className="panel-heading">
